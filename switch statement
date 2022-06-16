@@ -1,0 +1,133 @@
+// Switch
+//syntax
+// switch ( expression ) {
+//     case (expression == true):
+//         //Code to execute
+//     break;
+//     case (expression == true):
+//         //Code to execute
+//     break;
+//     default:
+//         //code to execute
+//     break;
+// }
+
+let activity = 'Learn Coding';
+
+switch (activity ) {
+    case "Get up":
+        console.log("It is 6:30am");
+    break;
+    case "Breakfast":
+        console.log("It is 7:00am");
+    break;
+    case "Drive to loctech in Benz":
+        console.log("It is 8:00am");
+    break;
+    case "Learn Coding":
+        console.log("It is 9:00am");
+    break;
+    case "Lunch":
+        console.log("It is 12:00pm");
+    break;
+    case "Drive Home":
+        console.log("It is 5:30am");
+    break;
+    case "Dinner":
+        console.log("It is 6:30pm");
+    break;
+    case "Sleep":
+        console.log("It is 1:30am");
+    break;
+    default:
+        console.log("We do not do anything");
+    break;
+}
+
+// Another example
+
+//switch
+//syntax
+//switch(expression) {
+  //  case (expresssion == true):
+    //    //code to execute
+      //  break;
+        //case (expression == true):
+          //  break;
+            //default:
+                //code to execute
+           //break;
+           //default:
+               //code to execute
+             //  break;
+//}
+
+
+// let activity = 'learn coding';
+// switch ( activity) {
+//     case "get up":
+//     console.log("it is 6:30");
+//     break;
+//     case "breakfast":
+//      console.log ("it is 7:00am");
+//     break;
+//     case "Drive to loctech in benz":
+//     console.log("it is 8:00am");
+//     break;
+//     case "learn coding":
+//     console.log ("it is 9:00am");
+//     break;
+//     case "lunch":
+//     console.log ("it is 12:00 pm");
+//     break;
+//     case "drive home":
+//         console.log ("it is 5:30pm");
+//         break;
+//         case "sleep":
+//             console.log("it is 8:pm");
+//             default: ("we love to sleep")
+//             break;
+
+
+// }
+
+
+
+
+//class work
+ //let randomNumber = Math.floor( Math.random() * 6);
+//console.log (Math.floor (randomNumber *6));
+var string = "hello"
+//var  input = window.prompt ('whats your number');
+//input = Number(input)
+//var message;
+
+ //switch (input){
+   //  case 0:
+     //   message = "you can come in";
+       // break;
+      //case 1:
+        //  message ="knock  once before coming in";
+          //break;
+        //case 2:
+          //  message = "knock 2 times before coming in" ;
+            //break;
+        //case 3:
+          //  message ="knock 3 times before coming in";
+            //break;
+        //case 4:
+          //  message= "knock 4 times before coming in";
+            //break;
+        //case 5:
+          //  message ="knock 5 times before coming in";
+            //break;
+        //default:
+          //  message = "Wrong answer";
+ //}
+//  console.log(randomNumber)
+   //        console.log (message);
+     //      console.log(`Your answer is ${input} and the generated numer is ${randomNumber}`)
+
+
+
+
