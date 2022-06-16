@@ -1,0 +1,26 @@
+//Decison
+//Boolleans: .two. values- .true or false
+var rain = false;
+var sun=true;
+//control structures
+//1.if else statment
+//syntax
+//if. (condition == true.).{
+    //....//code.here. will.execute
+    //.} else{
+        //.....//code.will.run.when.condition.is.false
+   //. }
+   if ( rain == true)
+   {
+       console.log(
+           'rain rain go away'
+       );
+   }else{
+        console.log('it is not raining now, so come out');
+   }
+   if (sun)
+   {console.log(
+       'is sunny day'
+   )}else(
+       'i hate the weather!'
+   )
