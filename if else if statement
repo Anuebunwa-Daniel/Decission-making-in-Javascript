@@ -1,0 +1,22 @@
+//if elseif statement
+
+   var age =10;
+   var cost=0;
+   var message;
+   if (age < 3){
+       cost=0;
+       message ='access is free under three years oold'
+   } else if( (age >= 3) && (age < 12) ){
+       cost=5;
+       message = 'with the child discout, the fee is 5 dollars';
+
+   } else if (age >12 && age < 65){
+       cost = 10;
+       message ='A regular ticket is 10 dollars.';
+   }else {
+       cost =7;
+       message ='A ticket is 7 dollars.';
+   }
+   console.log('message');
+   console.log ('your total cost is'  + cost)
+
